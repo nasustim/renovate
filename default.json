@@ -4,6 +4,10 @@
   "rangeStrategy": "pin",
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "pinDigest"],
+      "automerge": true
+    },
+    {
       "groupName": "gh-page-deploy",
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["actions/configure-pages", "actions/upload-pages-artifact", "actions/deploy-pages"]
