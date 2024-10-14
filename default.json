@@ -16,7 +16,6 @@
       "matchPackageNames": ["actions/configure-pages", "actions/upload-pages-artifact", "actions/deploy-pages"]
     },
 
-    // go version
     {
       "groupName": "Go runtime",
       "matchManagers": [
