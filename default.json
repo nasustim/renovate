@@ -5,6 +5,9 @@
   "postUpdateOptions": [
     "gomodTidy"
   ],
+  "schedule": [
+    "before 8am on Saturday"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest", "pinDigest"],
