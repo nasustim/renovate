@@ -14,24 +14,17 @@
       "automerge": true
     },
     {
-      "groupName": "gh-page-deploy",
+      "groupName": "GitHub Actions (gh page deploy)",
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["actions/configure-pages", "actions/upload-pages-artifact", "actions/deploy-pages"]
     },
 
     {
-      "groupName": "Go runtime",
+      "groupName": "Runtimes (Golang)",
       "matchManagers": [
-        "gomod"
+        "gomod", "asdf", "mise", "homebrew", "buildpacks", "devcontainer", "docker-compose", "dockerfile"
       ],
-      "matchDepNames": "go"
-    },
-    {
-      "groupName": "Go runtime",
-      "matchManagers": [
-        "asdf"
-      ],
-      "matchDepNames": "golang"
+      "matchDepNames": ["golang", "go"]
     }
   ]
 }
