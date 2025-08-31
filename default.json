@@ -8,6 +8,9 @@
   "schedule": [
     "before 8am on Saturday"
   ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest", "pinDigest"],
