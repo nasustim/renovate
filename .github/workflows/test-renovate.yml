@@ -16,5 +16,5 @@ jobs:
     timeout-minutes: 2
     steps:
       - uses: actions/checkout@v6.0.0
-      - uses: actions/setup-node@v6.0.0
+      - uses: actions/setup-node@v6.2.0
       - run: npx --package renovate -c 'renovate-config-validator'
